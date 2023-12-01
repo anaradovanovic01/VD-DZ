@@ -1,0 +1,59 @@
+body {
+    background-color: #95D2EC;
+}
+
+.polje {
+    width: 80%;
+    height: 35px;
+    text-align: center;
+    background-color: #e7f9ff;
+    margin: 3%;
+    border-radius: 10px;
+}
+
+#A1, #D { margin-left: 0%;}
+#A2, #D1 { margin-left: 6%;}
+#A3, #D2 { margin-left: 12%;}
+#A4, #D3 { margin-left: 18%;}
+#A,  #D4  { margin-left: 24%;}
+#B1, #C { margin-left: 24%;}
+#B2, #C1 { margin-left: 18%;}
+#B3, #C2 { margin-left: 12%;}
+#B4, #C3 { margin-left: 6%;}
+#B,  #C4  { margin-left: 0%;}
+
+.margine {
+    margin: 2%;
+}
+
+#igrac1 {
+    background-color: #1ea1de;
+    padding: 3%;
+    border-radius: 10px;
+    color:white;
+    font-size: large;
+}
+
+#igrac2 {
+    background-color: #D01B1B;
+    padding: 3%;
+    border-radius: 10px;
+    color:white;
+    font-size: large;
+}
+
+#uputstvo {
+    background-color: #1ea1de;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.igrac {
+    border-radius: 10px;
+}
+
+#tajmer {
+    margin-left: 5%;
+    color: white;
+    font-size: x-large;
+}

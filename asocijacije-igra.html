@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>Asocijacije</title>
+</head>
+<body onload="pokreni()">
+    <div class="container">
+        <div class="row margine">
+            <div class="col-sm-4 text-center">
+                <span id="igrac1"></span>
+            </div>
+            <div class="col-sm-4 text-center">
+                <button class="btn btn-light btn-lg" onclick="dalje()">Dalje</button>
+                <span id="tajmer">Vreme</span>
+            </div>
+            <div class="col-sm-4 text-center ">
+                <span id="igrac2"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+                <button class="polje A" id="A1" onclick="pritisnutoPolje('A1')">A1</button><br>
+                <button class="polje A" id="A2" onclick="pritisnutoPolje('A2')">A2</button><br>
+                <button class="polje A" id="A3" onclick="pritisnutoPolje('A3')">A3</button><br>
+                <button class="polje A" id="A4" onclick="pritisnutoPolje('A4')">A4</button><br>
+                <input class="polje A" id="A" placeholder="A" onchange="uneto('A')">
+            </div>
+            <div class="col-sm-3">
+                <button class="polje B" id="B1" onclick="pritisnutoPolje('B1')">B1</button><br>
+                <button class="polje B" id="B2" onclick="pritisnutoPolje('B2')">B2</button><br>
+                <button class="polje B" id="B3" onclick="pritisnutoPolje('B3')">B3</button><br>
+                <button class="polje B" id="B4" onclick="pritisnutoPolje('B4')">B4</button><br>
+                <input class="polje B" id="B" placeholder="B" onchange="uneto('B')">
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4 text-center">
+                <input class="polje" id="F" placeholder="?" onchange="uneto('F')">
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+                <input class="polje C" id="C" placeholder="C" onchange="uneto('C')">
+                <button class="polje C" id="C1" onclick="pritisnutoPolje('C1')">C1</button><br>
+                <button class="polje C" id="C2" onclick="pritisnutoPolje('C2')">C2</button><br>
+                <button class="polje C" id="C3" onclick="pritisnutoPolje('C3')">C3</button><br>
+                <button class="polje C" id="C4" onclick="pritisnutoPolje('C4')">C4</button><br>
+            </div>
+            <div class="col-sm-3">
+                <input class="polje D" id="D" placeholder="D" onchange="uneto('D')">
+                <button class="polje D" id="D1" onclick="pritisnutoPolje('D1')">D1</button><br>
+                <button class="polje D" id="D2" onclick="pritisnutoPolje('D2')">D2</button><br>
+                <button class="polje D" id="D3" onclick="pritisnutoPolje('D3')">D3</button><br>
+                <button class="polje D" id="D4" onclick="pritisnutoPolje('D4')">D4</button><br>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+</body>
+</html>
